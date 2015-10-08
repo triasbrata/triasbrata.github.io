@@ -35,7 +35,7 @@
       myApp.controller("MyController", ["$scope", "$firebaseArray",
         function($scope, $firebaseArray) {
           //CREATE A FIREBASE REFERENCE
-          var ref = new Firebase("https://edqspaj842q.firebaseio-demo.com/");
+          var ref = new Firebase("https://triasbrata.firebaseIO.com/");
 
           // GET MESSAGES AS AN ARRAY
           $scope.messages = $firebaseArray(ref);
