@@ -1,4 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contoh</title>
+	<script src="/bower_component/firebase/firebase.min.js"></script>
+	<script src="/bower_components/material-design-lite/material.min.js"></script>
+	<script src="/bower_components/angular/angular.min.js"></script>
+	<script src="/bower_components/angularfire/dist/angularfire.min.js"></script>
+	<link rel="stylesheet" href="/bower_components/material-design-lite/material.css">
 	<script>
 	var ref = new Firebase("https://triasbrata.firebaseio.com/");
 	ref.authWithCustomToken("0wuCGdmKx8hxu6TR9i3fclTL1V04QIg7tGklUkQr", function(error, authData) {
@@ -7,6 +16,12 @@
 	  } else {
 	    console.log("Login Succeeded!", authData);
 	  }
+	},{
+		remember : "sessionOnly"
 	});
-</script>
+	</script>
+</head>
+<body>
+	
+</body>
 </html>

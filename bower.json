@@ -1,0 +1,25 @@
+{
+  "name": "triasbrata.github.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/triasbrata/triasbrata.github.io",
+  "authors": [
+    "triasbrata <triasbrata@gmail.com>"
+  ],
+  "description": "Web static page for personal propouse",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "personal",
+    "web"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
